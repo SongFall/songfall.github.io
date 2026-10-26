@@ -19,6 +19,11 @@
       "name": "搜索",
       "url": "/search/",
       "weight": 40
+    },
+    {
+      "name": "关于我",
+      "url": "/about/",
+      "weight": 50
     }
   ]
 }

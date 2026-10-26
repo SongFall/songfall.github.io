@@ -19,6 +19,11 @@
       "name": "Search",
       "url": "/search/",
       "weight": 40
+    },
+    {
+      "name": "About Me",
+      "url": "/about/",
+      "weight": 50
     }
   ]
 }

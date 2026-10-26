@@ -1,10 +1,11 @@
 {
   "en": {
-    "label": "English",
+    "label": "Aa",
     "locale": "en-us",
     "weight": 1,
     "title": "SongFall's Blog",
     "params": {
+      "languageAltTitle": "English",
       "description": "SongFall's personal blog about tech, learning and life.",
       "homeInfoParams": {
         "Title": "Hi, I'm SongFall 👋",
@@ -13,11 +14,12 @@
     }
   },
   "zh-cn": {
-    "label": "中文",
+    "label": "中",
     "locale": "zh-cn",
     "weight": 2,
     "title": "SongFall 的个人博客",
     "params": {
+      "languageAltTitle": "中文",
       "description": "SongFall 的个人博客，记录技术、学习与生活。",
       "homeInfoParams": {
         "Title": "你好，我是 SongFall 👋",
