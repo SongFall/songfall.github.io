@@ -1,13 +1,12 @@
 baseURL = "https://songfall.github.io/"
-locale = "zh-cn"
-defaultContentLanguage = "zh-cn"
-title = "SongFall 的个人博客"
+defaultContentLanguage = "en"
 theme = "PaperMod"
 
 enableRobotsTXT = true
 enableGitInfo = true
 
-paginate = 8
+[pagination]
+  pagerSize = 8
 
 [minify]
   disableXML = true
@@ -18,8 +17,6 @@ paginate = 8
 
 [params]
   env = "production"
-  title = "SongFall 的个人博客"
-  description = "SongFall 的个人博客，记录技术、学习与生活。"
   author = "SongFall"
   DateFormat = "2006-01-02"
   defaultTheme = "auto"
@@ -31,30 +28,74 @@ paginate = 8
   ShowWordCounts = true
   ShowRssButtonInSectionTermList = true
   UseHugoToc = true
+  displayFullLangName = true
 
-  [params.homeInfoParams]
-    Title = "你好，我是 SongFall 👋"
-    Content = "欢迎来到我的个人博客，这里记录技术、学习与生活。"
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-us"
+    weight = 1
+    title = "SongFall's Blog"
 
-[[menu.main]]
-  name = "文章"
-  url = "/posts/"
-  weight = 10
+    [languages.en.params]
+      description = "SongFall's personal blog about tech, learning and life."
 
-[[menu.main]]
-  name = "归档"
-  url = "/archives/"
-  weight = 20
+      [languages.en.params.homeInfoParams]
+        Title = "Hi, I'm SongFall 👋"
+        Content = "Welcome to my personal blog about tech, learning and life."
 
-[[menu.main]]
-  name = "标签"
-  url = "/tags/"
-  weight = 30
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
 
-[[menu.main]]
-  name = "搜索"
-  url = "/search/"
-  weight = 40
+    [[languages.en.menu.main]]
+      name = "Archives"
+      url = "/archives/"
+      weight = 20
+
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 30
+
+    [[languages.en.menu.main]]
+      name = "Search"
+      url = "/search/"
+      weight = 40
+
+  [languages.zh-cn]
+    label = "中文"
+    locale = "zh-cn"
+    weight = 2
+    title = "SongFall 的个人博客"
+
+    [languages.zh-cn.params]
+      description = "SongFall 的个人博客，记录技术、学习与生活。"
+
+      [languages.zh-cn.params.homeInfoParams]
+        Title = "你好，我是 SongFall 👋"
+        Content = "欢迎来到我的个人博客，这里记录技术、学习与生活。"
+
+    [[languages.zh-cn.menu.main]]
+      name = "文章"
+      url = "/posts/"
+      weight = 10
+
+    [[languages.zh-cn.menu.main]]
+      name = "归档"
+      url = "/archives/"
+      weight = 20
+
+    [[languages.zh-cn.menu.main]]
+      name = "标签"
+      url = "/tags/"
+      weight = 30
+
+    [[languages.zh-cn.menu.main]]
+      name = "搜索"
+      url = "/search/"
+      weight = 40
 
 [markup]
   [markup.highlight]
