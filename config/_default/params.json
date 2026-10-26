@@ -1,0 +1,15 @@
+{
+  "env": "production",
+  "author": "SongFall",
+  "DateFormat": "2006-01-02",
+  "defaultTheme": "auto",
+  "ShowReadingTime": true,
+  "ShowShareButtons": true,
+  "ShowPostNavLinks": true,
+  "ShowBreadCrumbs": true,
+  "ShowCodeCopyButtons": true,
+  "ShowWordCounts": true,
+  "ShowRssButtonInSectionTermList": true,
+  "UseHugoToc": true,
+  "displayFullLangName": true
+}

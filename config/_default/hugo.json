@@ -1,0 +1,26 @@
+{
+  "baseURL": "https://songfall.github.io/",
+  "defaultContentLanguage": "en",
+  "theme": "PaperMod",
+  "enableRobotsTXT": true,
+  "enableGitInfo": true,
+  "pagination": {
+    "pagerSize": 8
+  },
+  "minify": {
+    "disableXML": true,
+    "minifyOutput": true
+  },
+  "outputs": {
+    "home": ["HTML", "RSS", "JSON"]
+  },
+  "markup": {
+    "highlight": {
+      "noClasses": false
+    },
+    "tableOfContents": {
+      "startLevel": 2,
+      "endLevel": 6
+    }
+  }
+}
