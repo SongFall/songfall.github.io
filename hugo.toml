@@ -1,0 +1,64 @@
+baseURL = "https://songfall.github.io/"
+locale = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "SongFall 的个人博客"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+paginate = 8
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  title = "SongFall 的个人博客"
+  description = "SongFall 的个人博客，记录技术、学习与生活。"
+  author = "SongFall"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCounts = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "你好，我是 SongFall 👋"
+    Content = "欢迎来到我的个人博客，这里记录技术、学习与生活。"
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  name = "归档"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  name = "搜索"
+  url = "/search/"
+  weight = 40
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
