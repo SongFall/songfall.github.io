@@ -11,5 +11,22 @@
   "ShowWordCounts": true,
   "ShowRssButtonInSectionTermList": true,
   "UseHugoToc": true,
-  "displayFullLangName": true
+  "displayFullLangName": true,
+  "socialIcons": [
+    {
+      "name": "github",
+      "title": "GitHub",
+      "url": "https://github.com/SongFall"
+    },
+    {
+      "name": "maimai",
+      "title": "脉脉",
+      "url": "https://maimai.cn/"
+    },
+    {
+      "name": "wechat",
+      "title": "微信：扫码添加",
+      "url": "/images/wechat-qr.png"
+    }
+  ]
 }
